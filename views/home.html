@@ -14,20 +14,29 @@
         </div>
     </div>
     <br>
-    <div class="container">
+    <div class="container col-6">
         <!-- first Row for upload alone -->
         <div class="row">
             <h2>Upload Here</h2>
         </div>
-        <div class="container form-control">
-            <form action="post">
-                <label for="uploadkml">Upload Here</label>
-                <input type="file" name="uploadfile" id="uploadkml">
-            <br>
-            <button type="submit" class="btn btn-secondary">Submit</button>
-            </form>
-        </div>
-
+        <!-- for the form to upload -->
+            <div class="form-control">
+                <!-- form here -->
+                <form action="post">
+                    <div class="row align-items-start">
+                        <div class="col-2">
+                            <label for="uploadkml">Upload Here</label>
+                        </div>
+                        <div class="col-3">
+                            <input type="file" name="uploadfile" id="uploadkml">
+                        </div>
+                        <div class="col-3">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                    <br>
+                </form>
+            </div>
     </div>
 
 
